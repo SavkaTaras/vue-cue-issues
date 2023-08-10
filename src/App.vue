@@ -1,16 +1,26 @@
 <template>
-  Vue component:
+  Vue component X:
   <ComponentA />
   <br />
   <br />
 
-  Custom element import 1:
-  <component-c />
+  Custom element x:
+  <component-x />
   <br />
   <br />
 
-  Custom element import 2:
-  <component-c />
+	Custom element x 2nd import:
+  <component-x />
+  <br />
+  <br />
+
+  Custom element y:
+  <component-y />
+  <br />
+  <br />
+
+	Custom element z:
+  <component-z />
   <br />
   <br />
 </template>
