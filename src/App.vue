@@ -1,26 +1,11 @@
 <template>
   Vue component X:
-  <ComponentA />
+  <ComponentA :foo="12345" />
   <br />
   <br />
 
-  Custom element x:
-  <component-x />
-  <br />
-  <br />
-
-	Custom element x 2nd import:
-  <component-x />
-  <br />
-  <br />
-
-  Custom element y:
-  <component-y />
-  <br />
-  <br />
-
-	Custom element z:
-  <component-z />
+  Failing custom element-x:
+  <component-x foo="12345" />
   <br />
   <br />
 </template>
