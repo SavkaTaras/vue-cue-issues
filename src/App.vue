@@ -1,11 +1,11 @@
 <template>
   Vue component X:
-  <ComponentA :foo="12345" />
+  <ComponentA :foo="12345" :valOne="5.5" :valTwo="0.5" />
   <br />
   <br />
 
   Failing custom element-x:
-  <component-x foo="12345" />
+  <component-x foo="12345" val-one="5.5" val-two="0.5" />
   <br />
   <br />
 </template>

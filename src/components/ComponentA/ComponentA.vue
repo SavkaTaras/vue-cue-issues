@@ -2,7 +2,7 @@
 	<div class="component-a">
 		<p>foo value: {{ props.foo }}</p>
 		<p>typeof foo: {{ typeof props.foo }}</p>
-
+		<p>Sum: {{ props.valOne + props.valTwo }}</p>
 		<!-- <ComponentB /> -->
 	</div>
 </template>
@@ -17,12 +17,14 @@
 
 interface Props {
   foo?: number;
-  baz?: string;
+	valOne: number;
+	valTwo: number;
 }
 
 const props = withDefaults(defineProps<Props>(), {
 	foo: 1,
-	baz: '',
+	valOne: 0,
+	valtwo: 0,
 });
 </script>
 
