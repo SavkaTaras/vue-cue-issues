@@ -23,8 +23,8 @@ interface Props {
 
 const props = withDefaults(defineProps<Props>(), {
 	foo: 1,
-	valOne: 0,
-	valTwo: 0,
+	valOne: 2.5,
+	valTwo: 0.5,
 });
 </script>
 

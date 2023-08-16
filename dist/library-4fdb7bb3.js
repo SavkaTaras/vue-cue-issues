@@ -3,8 +3,8 @@ const d = { class: "component-a" }, C = /* @__PURE__ */ m({
   __name: "ComponentA",
   props: {
     foo: { default: 1 },
-    valOne: { default: 0 },
-    valTwo: { default: 0 }
+    valOne: { default: 2.5 },
+    valTwo: { default: 0.5 }
   },
   setup(n) {
     const o = n;
@@ -24,7 +24,7 @@ const d = { class: "component-a" }, C = /* @__PURE__ */ m({
   __name: "ComponentB",
   setup(n) {
     const o = _(
-      () => import("./ComponentC-a1e4abf4.js")
+      () => import("./ComponentC-e94aa00a.js")
     );
     return (e, c) => (l(), r("div", v, [
       E,
@@ -37,7 +37,7 @@ customElements.define("component-x", A);
 const k = p(x);
 customElements.define("component-y", k);
 const O = _(
-  () => import("./ComponentC-a1e4abf4.js")
+  () => import("./ComponentC-e94aa00a.js")
 ), $ = p(O);
 customElements.define("component-z", $);
 export {

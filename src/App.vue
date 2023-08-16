@@ -8,6 +8,11 @@
   <component-x foo="12345" val-one="5.5" val-two="0.5" />
   <br />
   <br />
+
+	If no value is provided for valOne and valTwo, defaults add correctly:
+	<component-x foo="12345" />
+  <br />
+  <br />
 </template>
 
 <script setup lang="ts">
