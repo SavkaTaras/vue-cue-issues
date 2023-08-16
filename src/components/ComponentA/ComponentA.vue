@@ -24,7 +24,7 @@ interface Props {
 const props = withDefaults(defineProps<Props>(), {
 	foo: 1,
 	valOne: 0,
-	valtwo: 0,
+	valTwo: 0,
 });
 </script>
 

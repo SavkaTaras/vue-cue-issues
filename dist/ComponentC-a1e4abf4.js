@@ -1,5 +1,5 @@
 import { openBlock as o, createElementBlock as e, createElementVNode as c } from "vue";
-import { _ as t } from "./library-c8cb3e27.js";
+import { _ as t } from "./library-6a57dcc9.js";
 const n = `.component-c .component-c-p{color:#be0f0f}
 `, s = {}, r = { class: "component-c" }, _ = /* @__PURE__ */ c("p", { class: "component-c-p" }, "component C color red", -1), p = [
   _
