@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "hash-sum": "^2.0.0",
-    "vue": "^3.3.4"
+    "vue": "^3.3.10"
   },
   "devDependencies": {
     "@types/node": "^20.4.9",
@@ -30,7 +30,7 @@
     "http-server": "^14.1.1",
     "sass": "^1.64.2",
     "typescript": "~5.1.0",
-    "unplugin-vue-ce": "^1.0.0-beta.12",
+    "unplugin-vue-ce": "^1.0.0-beta.19",
     "vite": "^4.4.5",
     "vue-tsc": "1.2.0"
   }

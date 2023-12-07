@@ -16,7 +16,7 @@
 // );
 
 interface Props {
-  foo?: number;
+	foo?: number;
 	valOne: number;
 	valTwo: number;
 }
